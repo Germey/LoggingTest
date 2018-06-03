@@ -1,0 +1,17 @@
+2018-06-03 15:56:39,968 - __main__ - INFO - Start print log
+2018-06-03 15:56:39,968 - __main__ - WARNING - Something maybe fail.
+2018-06-03 15:56:39,968 - __main__ - ERROR - Faild to get result
+Traceback (most recent call last):
+  File "/private/var/books/aicodes/loggingtest/demo8.py", line 18, in <module>
+    result = 10 / 0
+ZeroDivisionError: division by zero
+2018-06-03 15:56:39,969 - __main__ - INFO - Finished
+2018-06-03 16:00:15,382 - __main__ - INFO - Start print log
+2018-06-03 16:00:15,382 - __main__ - DEBUG - Do something
+2018-06-03 16:00:15,382 - __main__ - WARNING - Something maybe fail.
+2018-06-03 16:00:15,382 - __main__ - ERROR - Faild to get result
+Traceback (most recent call last):
+  File "/private/var/books/aicodes/loggingtest/demo8.py", line 23, in <module>
+    result = 10 / 0
+ZeroDivisionError: division by zero
+2018-06-03 16:00:15,383 - __main__ - INFO - Finished
